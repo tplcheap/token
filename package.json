@@ -1,0 +1,22 @@
+{
+  "name": "token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "abis": "node scripts/abis.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.1.7",
+    "dotenv": "^16.0.3",
+    "truffle": "^5.7.7",
+    "truffle-plugin-verify": "^0.6.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1"
+  }
+}
